@@ -10,4 +10,24 @@
         android:name="dev.davveg.practica1.FragmentHome"
         android:label="fragment_home"
         tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/inboxFragment"
+        android:name="dev.davveg.practica1.InboxFragment"
+        android:label="fragment_inbox"
+        tools:layout="@layout/fragment_inbox" />
+    <fragment
+        android:id="@+id/outboxFragment"
+        android:name="dev.davveg.practica1.OutboxFragment"
+        android:label="fragment_outbox"
+        tools:layout="@layout/fragment_outbox" />
+    <fragment
+        android:id="@+id/trashFragment"
+        android:name="dev.davveg.practica1.TrashFragment"
+        android:label="fragment_trash"
+        tools:layout="@layout/fragment_trash" />
+    <fragment
+        android:id="@+id/spamFragment"
+        android:name="dev.davveg.practica1.SpamFragment"
+        android:label="fragment_spam"
+        tools:layout="@layout/fragment_spam" />
 </navigation>

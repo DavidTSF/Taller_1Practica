@@ -8,7 +8,9 @@
     android:id="@+id/drawerLayout"
     tools:context=".MainActivity">
 
-    <include layout="@layout/content_main" />
+    <include
+        android:id="@+id/content"
+        layout="@layout/content_main" />
 
     <!-- Layout del menú lateral (Navigation View) -->
     <com.google.android.material.navigation.NavigationView
@@ -18,7 +20,7 @@
         android:fitsSystemWindows="true"
         android:layout_gravity="start"
         app:menu="@menu/menu_navdrawer"
-        app:headerLayout="@layout/header"/>/>
+        app:headerLayout="@layout/header"/>
 
 
 

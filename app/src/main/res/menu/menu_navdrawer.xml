@@ -15,7 +15,7 @@
             android:title="Outbox" />
         <item
             android:id="@+id/nav_trash"
-            android:icon="@android:drawable/ic_menu_slideshow"
+            android:icon="@android:drawable/ic_menu_delete"
             android:title="Trash" />
         <item
             android:id="@+id/nav_spam"
